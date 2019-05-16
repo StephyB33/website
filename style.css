@@ -1,0 +1,105 @@
+/*divider elements */
+* {
+  font-size: 100%;
+  margin: 0;
+  line-height: 1;
+  box-sizing: border-box;
+  }
+
+body {
+  background-color: grey;
+  color: black;
+  font-family: Helvetica;
+  font-size: 25px;
+  /* margin: 50px; */
+}
+header,
+section,
+footer {
+  padding: 30px;
+  margin: 30px;
+}
+
+section {
+  border: 30px ridge red;
+  background-color: white;
+}
+
+p {
+  line-height: 2;
+  color: #5f2ca0;
+}
+footer  {
+  font-size: 13px;
+}
+h1 {
+  text-align: left;
+
+}
+
+/* COMMON ELEMENTS */
+h1, h2, h3, h4, h5 ,h6 {
+  font-weight: bold;
+  font-style: italic;
+  font-family: "Bree Serif";
+  margin-bottom: 25px;
+}
+
+header  {
+  border: 10px solid black;
+  font-size: 48px;
+  text-align: left;
+  margin-bottom: 40px
+}
+
+h2 {
+  font-size 36px;
+  margin-bottom 20px
+}
+
+h3  {
+  font-size: 24px;
+  margin-bottom: 20px
+}
+p {
+  margin: 15px 0;
+  line-height:1.5;
+  }
+
+ul, ol {
+    margin: 15px 0;
+}
+
+a:link,
+a:focus,
+a:visited {
+    color: pink;
+    text-decoration: none;
+
+}
+
+  a{
+    color: red;
+    text-decoration: none;
+}
+    /* CSS rules go here */
+  a:hover {
+    text-decoration: underline;
+    background-color: purple;
+}
+  img {
+    height: 300px;
+}
+
+.title {
+    font-size: 48px;
+    text-decoration: underline;
+}
+
+  .title-2 {
+      color: red;
+  }
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
