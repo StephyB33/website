@@ -8,6 +8,9 @@
 
 body {
   background-color: grey;
+      background-image: url(images/sakura.png);
+      background-repeat: repeat;
+  }
   color: black;
   font-family: Helvetica;
   font-size: 25px;
@@ -102,4 +105,17 @@ a:visited {
 .container {
     max-width: 1000px;
     margin: 0 auto;
+}
+
+.banner {
+    height: 350px;
+     background-image: url(images/pink-flowers.jpg);
+     background-size: 100%;
+     background-position: center;
+}
+
+.banner p{
+  font-size: 40px;
+  text-align: center;
+  padding-top: 160px;
 }
